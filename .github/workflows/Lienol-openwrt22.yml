@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Lienol-openwrt24
+name: Lienol-openwrt22
 
 on:
   repository_dispatch:
