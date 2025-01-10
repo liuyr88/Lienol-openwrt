@@ -15,7 +15,10 @@ name: Lienol-openwrt23
 on:
   repository_dispatch:
   workflow_dispatch:
-
+  
+  schedule:
+    - cron: 0 19 * * 6
+ 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: 23.05
