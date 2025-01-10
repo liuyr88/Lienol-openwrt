@@ -8,7 +8,7 @@ nwrt#
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol-openwrt23
+name: Lienol-openwrt
 
 on:
   repository_dispatch:
